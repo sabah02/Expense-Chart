@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/sabah02/Expense-Chart]
+- Live Site URL: [https://sabah02.github.io/Expense-Chart/]
 
 ## My process
 
@@ -51,9 +51,6 @@ API and how it works. Then I figured out how I can layout the elements and style
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
@@ -76,9 +73,8 @@ to learn about different positons which are static, relative, absolute and fixed
 
 ## Author
 
-- Website - [Sabah Shaikh](https://www.your-site.com)
 - Frontend Mentor - [@sabah02](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
