@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![My work - Desktop](<Expenses chart component - desktop.png>)
+![My work - Desktop](<Expenses chart component.png>)
 
 
 ### Links
