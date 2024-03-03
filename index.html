@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="style.css" class="css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="o-cnt">
+    <div class="s-cnt">
+
+      <div class="m1-cnt">
+        <div class="balance-sec">
+          <p style="font-size: 14px; margin-bottom: 6px; color: hsl(27, 66%, 92%);">My balance</p>
+          <p style="font-size: 24px; color: hsl(27, 66%, 92%); font-weight: 700;">$921.48</p>
+        </div>
+        <div class="circle-container">
+          <div class="circle circle1"></div>
+          <div class="circle circle2"></div>
+        </div>
+      </div>
+
+      <div class="m2-cnt">
+        <p class="heading" style="font-size: 18px; font-weight: 700; color: hsl(25, 47%, 15%);">Spending - Last 7 days</p>
+        <div class="bar-container">
+          <div id="bar-cnt1" class="bar-cnt">
+            <div id = "1" class="bar"></div>
+            <div class="week-day">mon</div>
+          </div>
+
+          <div id="bar-cnt2" class="bar-cnt">
+            <div id = "2" class="bar"></div>
+            <div class="week-day">tue</div>
+          </div>
+
+          <div id="bar-cnt3" class="bar-cnt">
+            <div id = "3" class="bar"></div>
+            <div class="week-day">wed</div>
+          </div>
+
+          <div id="bar-cnt4" class="bar-cnt">
+            <div id = "4" class="bar"></div>
+            <div class="week-day">thu</div>
+          </div>
+  
+          <div id="bar-cnt5" class="bar-cnt">
+            <div id = "5" class="bar"></div>
+            <div class="week-day">fri</div>
+          </div>
+          
+          <div id="bar-cnt6" class="bar-cnt">
+            <div id = "6" class="bar"></div>
+            <div class="week-day">sat</div>
+          </div>
+          
+          <div id="bar-cnt7" class="bar-cnt">
+            <div id = "7" class="bar"></div>
+            <div class="week-day">sun</div>
+          </div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="balance-info-cnt">
+
+          <div class="balance-amt-info-cnt">
+            <p style="font-size: 10px; color: hsl(28, 10%, 53%);">Total this month</p>  
+            <p style="font-size: 26px; font-weight: 700;">$478.33</p>
+          </div>
+
+          <div class="last-month-info-cnt">
+            <p style="text-align: end; font-size: 12px; font-weight: 700; color: hsl(25, 47%, 15%);">+2.4%</p>
+            <p style="font-size: 12px; color: hsl(28, 10%, 53%);">from last month</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sabah Shaikh</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
