@@ -1,97 +1,160 @@
-# Frontend Mentor - Expenses chart component
+# Frontend Mentor - Expenses chart component solution
 
-![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a decent understanding of HTML, CSS and JavaScript.**
+## Overview
 
-## The challenge
+The challenge was to build week-expense-chart with some json api calls to make it more interactive and dynamic.
 
-Your challenge is to build out this bar chart component and get it looking as close to the design as possible.
+### The challenge
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-We provide the data for the chart in a local `data.json` file. So you can use that to dynamically add the bars if you choose.
-
-Your users should be able to:
+Users should be able to:
 
 - View the bar chart and hover over the individual bars to see the correct amounts for each day
-- See the current day's bar highlighted in a different colour to the other bars
-- View the optimal layout for the content depending on their device's screen size
+- See the current day’s bar highlighted in a different colour to the other bars
+- View the optimal layout for the content depending on their device’s screen size
 - See hover states for all interactive elements on the page
-- **Bonus**: See dynamically generated bars based on the data provided in the local JSON file
+- **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![My work - Desktop](<Expenses chart component - desktop.png>)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Links
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## My process
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Firstly I figured out and learned how to fetch the json data to display on the html page. I learned the fetch() 
+API and how it works. Then I figured out how I can layout the elements and style them.
 
-## Building your project
+### Built with
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### What I learned
 
-## Deploying your project
+I learned about the following concepts
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+  - `fetch()`
+  - `CSS positions`
+  - `how to add styel in js`
+  - `how to add child element in js`
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### Continued development
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+I want to learn more about `CSS positioning` as I am still not clear with concepts and want to work with more APIs.
 
-## Create a custom `README.md`
+### Useful resources
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+- [Learn about JSON](https://www.youtube.com/watch?v=cj3h3Fb10QY&ab_channel=HostingerAcademy) - This helped me to learn the fetch() method in JS and gave some insights of promises in JS.
+- [CSS positions](https://www.youtube.com/watch?v=jx5jmI0UlXU&ab_channel=WebDevSimplified) - This resource helped me
+to learn about different positons which are static, relative, absolute and fixed.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+## Author
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+- Website - [Sabah Shaikh](https://www.your-site.com)
+- Frontend Mentor - [@sabah02](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-## Submitting your solution
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+Fetch Api
+  - used to get data from json file
+  - use fetch(address or url)
+     .then(response => {
+        if(!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+     })
+     .then(jsonData => {
+        console.log(jsonData);
+     })
+     .catch(error => {
+      console.error('Error fetching data: ', error)
+     });
 
-## Sharing your solution
+  - Info about `fetch()` code
+    - `fetch()` is a web API in JS used for making HTTP request to   servers in this case my remote computer.
 
-There are multiple places you can share your solution:
+    - `fetch()` API returns `Promise`
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+    - `Promise` represents the completion or failure of the asynchronous operation.
+      - If the operation is successful (i.e., server responds with a 200-299 code that is `OK status`), the promise is fulfilled, and it resolves (`resolve` refer to the action taken when a Promise successfully completes its asynchronous operation which means that the operation it represents has been successfully completed and the Promise transitions to a fulfilled state) to a Response object containing information about the response from the server.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+      - If the operation encounters an error (e.g., network issues, server error), the Promise is rejected and it contains information about the error.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+    - Promises have methods like .then()
+      and .catch()
+      - .then(response => {
+        //Handle successful response
+      })
+      - .then() method returns a new Promise
 
-## Got feedback for us?
+      - .catch(error => {
+        //Handle error
+      })
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+    - The below statement is also called Guard clause
+    - if(!res.ok) {
+      console.log('Problem');
+      return;
+    }
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+    - `so in the above code`
+      - `fetch(address or url)` - this statement call a fetch() api and sends request to the url mentioned
+      - `.then(response => {` - this statement call the .then() method which has a callback arrow function as its argument.The callback function takes the response returned by the promise as the argument and performs some function using it
+      - `if(!response.ok) {` - this statement checks if the response by the promise is between 200-299 i.e. a `OK` status or not if the if the promise resolves to not `OK` respnse then it does something
+      - `throw new Error('Network response was not ok');` - in this statement if the response was not ok it throws a error which contains message 'Network response was not ok'.
+      - `return response.json();` - in this statement if the response was ok and promise was resolved `.json()` method converts or parses the JSON which is in a javascript object format is returned. It's worth noting that this method also returns a Promise. It asynchronously reads the response body to completion and then resolves with the result of parsing the JSON.
+      - `then(data => {` - in this statement the data which was resolved by promise is passed as an argument to a callback arrow function is passed to .then method.
+      - `console.log(data)` - this statement logs the json object data on to the console.
+      - `catch(error => {` - in this statement the .catch methond 
+      handles the error if the promise has not been resolved. It's worth mentioning that the .catch() method is invoked if any error occurs during the entire Promise chain, including network errors, JSON parsing errors, or any other errors that may occur within the Promise chain.
+      - `console.error('Fetch error: ', error);` - this statment displays the error which was returned by the promise
 
-**Have fun building!** 🚀
+CSS
+
+absolute - The element will be positioned relative to the closest positioned ancestor.
+
+relative - The element will be positioned relative to its original position.
+
+`https://www.youtube.com/watch?v=cOw6tgH6P20&ab_channel=CodeWithHarry`
+
+static - default position of any element
+         Cannot apply top, bottom, left, right, z-index property
+
+absolute - The element will be positioned relative to the closest positioned ancestor.
+
+  
+            
+
+      
+
+
+  
