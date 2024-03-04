@@ -51,6 +51,7 @@ API and how it works. Then I figured out how I can layout the elements and style
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Media Queries
 
 ### What I learned
 
